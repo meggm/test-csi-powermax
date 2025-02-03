@@ -9,5 +9,5 @@ jobs:
     uses: meggm/common-github-actions-test/.github/workflows/csm-release-driver-module.yaml@main
     with:
       version: "minor"
-      image: "csi-powermax,csipowermax-reverseproxy"
+      images: "csi-powermax,csipowermax-reverseproxy"
     secrets: inherit
